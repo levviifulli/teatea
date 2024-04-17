@@ -5,6 +5,14 @@
 ##  Gradle start up script for UN*X
 ##
 ##############################################################################
+APP_NAME="Gradle"
+APP_BASE_NAME=`basename "$0"`
+die ( ) {
+    echo
+    echo "$*"
+    echo
+    exit 1
+}
 die ( ) {
     echo
     echo "$*"
